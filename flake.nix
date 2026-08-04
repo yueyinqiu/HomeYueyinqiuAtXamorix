@@ -23,7 +23,7 @@
       ...
     }:
     {
-      homeConfigurations.yueyinqiu-on-xamorix = home-manager.lib.homeManagerConfiguration {
+      homeConfigurations.yueyinqiu = home-manager.lib.homeManagerConfiguration {
         pkgs = nixpkgs.legacyPackages.x86_64-linux;
         extraSpecialArgs = {
           vscode-server = vscode-server;
